@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const ownerSchema = new mongoose.Schema({
-    name: {
+    fullname: {
         type: String,
         minLength: 3,
         trim: true,
